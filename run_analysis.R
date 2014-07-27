@@ -34,5 +34,5 @@ Y <- aggregate(X[,-c(1,2)], by=X[c(1,2)], mean)
 Y <- Y[order(Y[[1]],Y[[2]]),]; rownames(Y) <- NULL
 
 ## write current data frames to a folder called tidy
-write.csv(X, file=file.path("tidy", "X.csv"))
-write.csv(Y, file=file.path("tidy", "Y.csv"))
+write.csv(X, file=file.path("tidy", "X.csv"), row.names=FALSE)
+write.csv(Y, file=file.path("tidy", "Y.csv"), row.names=FALSE)
