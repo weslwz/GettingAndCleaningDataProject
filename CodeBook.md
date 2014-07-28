@@ -56,6 +56,7 @@ The set of variables that were estimated from these signals are:
 Labels
 ==========
 There are six activity labels, which are 
+
 1. Walking  
 2. Walking Upstairs  
 3. Walking Downstairs  
