@@ -52,3 +52,15 @@ The set of variables that were estimated from these signals are:
 
 1. mean(): Mean value
 2. std(): Standard deviation
+
+Labels
+==========
+There are six activity labels, which are 
+1. Walking  
+2. Walking Upstairs  
+3. Walking Downstairs  
+4. Sitting  
+5. Standing  
+6. Laying
+
+Additionally, there are 30 subjects labeled with integers from 1 to 30.
