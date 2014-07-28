@@ -50,5 +50,5 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
 
-mean(): Mean value
-std(): Standard deviation
+1. mean(): Mean value
+2. std(): Standard deviation
